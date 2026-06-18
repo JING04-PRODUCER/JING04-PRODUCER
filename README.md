@@ -67,42 +67,70 @@
 
 ## 🚀 开源项目
 
-<table>
-<tr>
-<td width="50%">
-<h3 align="center">
-  <a href="https://github.com/JING04-PRODUCER/agent-orchestrator">
-    <img src="https://img.shields.io/badge/🤖_AgentOrchestrator-FF6B6B?style=for-the-badge&logo=robotframework&logoColor=white" />
-  </a>
-</h3>
-<p align="center"><b>跨语言 LLM Agent 编排框架</b></p>
-<p>Python 核心 + Java 扩展的轻量级 Agent 框架。Function Calling、异步工具执行、超时重试、事件钩子、流式 SSE 透传，一套代码兼容 OpenAI / 百炼 / DeepSeek。</p>
+### 🪒 PromptSlim — AI 提示词瘦身工具包
+
+[![GitHub stars](https://img.shields.io/github/stars/JING04-PRODUCER/promptslim?style=flat-square)](https://github.com/JING04-PRODUCER/promptslim/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/JING04-PRODUCER/promptslim/blob/main/LICENSE)
+
+**在 API 调用前自动剃掉冗余 Token，节省 5%~75%。** 40+ 条中英文冗余模式、代码保护避免破坏 prompt、Anthropic Prompt Caching 缓存分析、LLM 语义压缩。支持 GPT / Claude / DeepSeek / Qwen。
+
+> 📖 [掘金详解 v0.3.0](https://juejin.cn/post/7652277909156790272)
+
+```python
+from promptslim import quick_slim
+report = quick_slim("嗯那个我想说的是这个功能非常非常好用对吧")
+print(f"节省 {report.savings_pct}% Token，每次省 ${report.cost_per_call_saved:.6f}")
+```
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/tenacity-重试机制-green?style=flat-square" />
-  <img src="https://img.shields.io/badge/async-Function_Calling-blueviolet?style=flat-square" />
+  <img src="https://img.shields.io/badge/tiktoken-Token_计数-green?style=flat-square" />
+  <img src="https://img.shields.io/badge/Anthropic-Prompt_Caching-blueviolet?style=flat-square" />
+  <img src="https://img.shields.io/badge/中英文-双语支持-10b981?style=flat-square" />
 </p>
-</td>
-<td width="50%">
-<h3 align="center">
-  <a href="https://github.com/JING04-PRODUCER/ai-cost-sentinel">
-    <img src="https://img.shields.io/badge/🛡️_AI_Cost_Sentinel-6366F1?style=for-the-badge&logo=shield&logoColor=white" />
-  </a>
-</h3>
-<p align="center"><b>AI API 成本追踪代理 — 一行代码不改</b></p>
-<p>零侵入式费用追踪。透明代理拦截 OpenAI 兼容请求，自动计算 Token 消耗与费用，预算告警，Spring Boot + Chart.js 可视化仪表盘。</p>
+
+---
+
+### 🛡️ AI Cost Sentinel — 透明 API 成本追踪
+
+[![GitHub stars](https://img.shields.io/github/stars/JING04-PRODUCER/ai-cost-sentinel?style=flat-square)](https://github.com/JING04-PRODUCER/ai-cost-sentinel/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/JING04-PRODUCER/ai-cost-sentinel/blob/main/LICENSE)
+
+**一行代码不改，透明追踪 AI API 调用成本。** 透明代理拦截请求，自动记录 Token 消耗与费用，20+ 模型定价、日/月预算告警、CSV 导出、模型成本对比、Slack Webhook 通知、Spring Boot + Chart.js 可视化仪表盘。
+
+```python
+# 只改这一行
+client = OpenAI(base_url="http://localhost:8000/v1", api_key="sk-xxx")
+# 其他代码完全不动，Sentinel 自动追踪
+```
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-FastAPI-009688?logo=fastapi&style=flat-square" />
   <img src="https://img.shields.io/badge/Java-Spring_Boot-6DB33F?logo=springboot&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/Chart.js-FF6384?logo=chartdotjs&logoColor=white&style=flat-square" />
+  <img src="https://img.shields.io/badge/SQLite-零依赖-003B57?logo=sqlite&logoColor=white&style=flat-square" />
+  <img src="https://img.shields.io/badge/Webhook-告警通知-f59e0b?style=flat-square" />
 </p>
-</td>
-</tr>
-</table>
+
+---
+
+### 🤖 AgentOrchestrator — 跨语言 Agent 编排平台
+
+[![GitHub stars](https://img.shields.io/github/stars/JING04-PRODUCER/agent-orchestrator?style=flat-square)](https://github.com/JING04-PRODUCER/agent-orchestrator/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/JING04-PRODUCER/agent-orchestrator/blob/main/LICENSE)
+
+**Python FastAPI 推理核心 + Java Spring Boot 管理面板。** Function Calling、多 Agent 工作流（顺序/并行/DAG）、Web Search 工具、RAG 记忆系统、插件化工具注册中心，兼容所有 OpenAI 接口模型。
+
+```bash
+curl -X POST http://localhost:8000/api/agents/code-reviewer/run \
+  -d '{"task": "审查 app.py 安全问题"}'
+```
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.12+-3776AB?logo=python&logoColor=white&style=flat-square" />
+  <img src="https://img.shields.io/badge/Java-21-ED8B00?logo=openjdk&logoColor=white&style=flat-square" />
+  <img src="https://img.shields.io/badge/Web_Search-DuckDuckGo-10b981?style=flat-square" />
+  <img src="https://img.shields.io/badge/RAG-记忆系统-blueviolet?style=flat-square" />
+</p>
 
 <hr style="border-color: #e5e7eb;" />
 

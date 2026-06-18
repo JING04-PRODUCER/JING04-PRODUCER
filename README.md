@@ -199,8 +199,10 @@ curl -X POST http://localhost:8000/api/agents/code-reviewer/run \
 
 <br /><br />
 
+🌐 [个人主页](https://jing04-producer.github.io/portfolio) &nbsp;|&nbsp;
 📧 [3573851322@qq.com](mailto:3573851322@qq.com) &nbsp;|&nbsp;
 🐙 [JING04-PRODUCER](https://github.com/JING04-PRODUCER) &nbsp;|&nbsp;
+📖 [掘金](https://juejin.cn/user/3573851322) &nbsp;|&nbsp;
 💬 欢迎交流 AI Agent / LLM 应用开发
 
 </div>

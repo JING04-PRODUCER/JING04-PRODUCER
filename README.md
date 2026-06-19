@@ -1,26 +1,25 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1500&color=6366F1&center=true&vCenter=true&width=600&lines=%F0%9F%91%8B+Hi%2C+I'm+JING;%E8%AE%A1%E7%A7%91%E5%9C%A8%E8%AF%BB+%7C+Python%2FJava+AI+Agent;%E5%BC%80%E6%BA%90%E8%80%85+%7C+%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91%E8%80%85;%E7%94%A8%E4%BB%A3%E7%A0%81%E8%A7%A3%E5%86%B3%E7%9C%9F%E5%AE%9E%E7%97%9B%E7%82%B9+%F0%9F%9A%80" alt="Typing SVG" />
+# 👋 Hi, I'm JING
+
+### 计科在读 | Python/Java AI Agent | 用代码解决真实痛点 🚀
 
 </div>
 
 <div align="center">
 
-<!-- 数据看板：动态计数徽章 -->
+<!-- 数据看板 -->
 <a href="https://github.com/JING04-PRODUCER">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/JING04-PRODUCER&query=followers&style=for-the-badge&logo=github&logoColor=white&label=Followers&color=6366f1&cacheSeconds=3600" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/JING04-PRODUCER&query=followers&style=flat-square&logo=github&logoColor=white&label=Followers&color=6366f1&cacheSeconds=3600" />
 </a>
 <a href="https://github.com/JING04-PRODUCER?tab=repositories">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/JING04-PRODUCER&query=public_repos&style=for-the-badge&logo=github&logoColor=white&label=Repos&color=10b981&cacheSeconds=3600" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/JING04-PRODUCER&query=public_repos&style=flat-square&logo=github&logoColor=white&label=Repos&color=10b981&cacheSeconds=3600" />
 </a>
-
-<br />
-
 <a href="https://github.com/JING04-PRODUCER?tab=stars">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/JING04-PRODUCER&query=public_gists&style=for-the-badge&logo=github&logoColor=white&label=Gists&color=f59e0b&cacheSeconds=3600" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/JING04-PRODUCER&query=public_gists&style=flat-square&logo=github&logoColor=white&label=Gists&color=f59e0b&cacheSeconds=3600" />
 </a>
 <a href="https://komarev.com/ghpvc/?username=JING04-PRODUCER">
-  <img src="https://komarev.com/ghpvc/?username=JING04-PRODUCER&style=for-the-badge&color=ef4444&label=%F0%9F%91%80+%E8%AE%BF%E5%AE%A2" alt="访客计数" />
+  <img src="https://komarev.com/ghpvc/?username=JING04-PRODUCER&style=flat-square&color=ef4444&label=%F0%9F%91%80" alt="访客计数" />
 </a>
 
 <br />
@@ -36,9 +35,6 @@
 
 <hr />
 
-<!-- 简介 -->
-<div align="center">
-
 ## 🧠 关于我
 
 > 计算机科学与技术 2303 班在读，专注 **Python + Java + AI Agent** 技术栈。
@@ -49,15 +45,6 @@
 | LLM 应用开发 | Python · Java · SQL | Agent 多智能体 |
 | Agent 编排框架 | FastAPI · Spring Boot | RAG 检索增强 |
 | API 基础设施 | SQLite · Docker · Git | 云端部署运维 |
-
-<br />
-
-<!-- GitHub 统计卡片 -->
-<a href="https://github.com/JING04-PRODUCER">
-  <img src="https://github-readme-stats.vercel.app/api?username=JING04-PRODUCER&show_icons=true&theme=transparent&hide_border=true&count_private=true&locale=cn&ring_color=6366f1&title_color=6366f1&icon_color=6366f1&text_color=666666&hide=stars,issues" alt="GitHub Stats" />
-</a>
-
-</div>
 
 <hr />
 
@@ -137,13 +124,6 @@ curl -X POST http://localhost:8000/api/agents/code-reviewer/run \
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=JING04-PRODUCER&theme=react-dark&hide_border=true&area=true&radius=16&custom_title=%F0%9F%93%8A+%E8%B4%A1%E7%8C%AE%E6%B4%BB%E5%8A%A8%E5%9B%BE" alt="Activity Graph" width="100%" />
   </a>
 </p>
-
-<!-- 🐍 贪吃蛇：每天 08:00 自动更新 -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JING04-PRODUCER/JING04-PRODUCER/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JING04-PRODUCER/JING04-PRODUCER/output/github-contribution-grid-snake.svg" />
-  <img alt="🐍 Snake eating my contributions" src="https://raw.githubusercontent.com/JING04-PRODUCER/JING04-PRODUCER/output/github-contribution-grid-snake.svg" width="100%" />
-</picture>
 
 <hr />
 

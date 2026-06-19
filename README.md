@@ -31,13 +31,10 @@
 
 </div>
 
-<hr style="border-color: #e5e7eb;" />
+<hr />
 
-<!-- 简介 + GitHub 状态卡 -->
+<!-- 简介 -->
 <div align="center">
-<table>
-<tr>
-<td width="60%" valign="top">
 
 ## 🧠 关于我
 
@@ -50,20 +47,16 @@
 | Agent 编排框架 | FastAPI · Spring Boot | RAG 检索增强 |
 | API 基础设施 | SQLite · Docker · Git | 云端部署运维 |
 
-</td>
-<td width="40%" valign="top">
+<br />
 
-<!-- 个人状态卡 -->
+<!-- GitHub 统计卡片 -->
 <a href="https://github.com/JING04-PRODUCER">
-  <img src="https://github-readme-stats.vercel.app/api?username=JING04-PRODUCER&show_icons=true&theme=transparent&hide_border=true&count_private=true&locale=cn&ring_color=6366f1&title_color=6366f1&icon_color=6366f1&text_color=666666&hide=stars,issues" width="100%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=JING04-PRODUCER&show_icons=true&theme=transparent&hide_border=true&count_private=true&locale=cn&ring_color=6366f1&title_color=6366f1&icon_color=6366f1&text_color=666666&hide=stars,issues" alt="GitHub Stats" />
 </a>
 
-</td>
-</tr>
-</table>
 </div>
 
-<hr style="border-color: #e5e7eb;" />
+<hr />
 
 ## 🚀 开源项目
 
@@ -132,7 +125,7 @@ curl -X POST http://localhost:8000/api/agents/code-reviewer/run \
   <img src="https://img.shields.io/badge/RAG-记忆系统-blueviolet?style=flat-square" />
 </p>
 
-<hr style="border-color: #e5e7eb;" />
+<hr />
 
 ## ⚡ 动态播报
 
@@ -149,7 +142,7 @@ curl -X POST http://localhost:8000/api/agents/code-reviewer/run \
   <img alt="🐍 Snake eating my contributions" src="https://raw.githubusercontent.com/JING04-PRODUCER/JING04-PRODUCER/output/github-contribution-grid-snake.svg" width="100%" />
 </picture>
 
-<hr style="border-color: #e5e7eb;" />
+<hr />
 
 ## 📊 GitHub 统计
 
@@ -168,12 +161,12 @@ curl -X POST http://localhost:8000/api/agents/code-reviewer/run \
 <br />
 
 <a href="https://github.com/JING04-PRODUCER">
-  <img src="https://github-profile-trophy.vercel.app/?username=JING04-PRODUCER&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=4" alt="Trophy" />
+  <img src="https://github-profile-trophy.vercel.app/?username=JING04-PRODUCER&theme=tokyonight&no-frame=true&row=2&column=4&margin-w=4" alt="Trophy" />
 </a>
 
 </div>
 
-<hr style="border-color: #e5e7eb;" />
+<hr />
 
 ## 🛠 技术栈
 
@@ -194,7 +187,7 @@ curl -X POST http://localhost:8000/api/agents/code-reviewer/run \
 
 </div>
 
-<hr style="border-color: #e5e7eb;" />
+<hr />
 
 <div align="center">
   <i>"好的代码是写给人看的，顺便能在机器上运行。"</i>

@@ -1,8 +1,6 @@
 <div align="center">
 
-# 👋 Hi, I'm JING
-
-### 计科在读 | Python/Java AI Agent | 用代码解决真实痛点 🚀
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1500&color=6366F1&center=true&vCenter=true&width=580&lines=%F0%9F%91%8B+Hi%2C+I'm+JING;%E8%AE%A1%E7%A7%91%E5%9C%A8%E8%AF%BB+%7C+Python%2FJava+%2F+AI+Agent;%E5%BC%80%E6%BA%90%E8%80%85+%7C+%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91%E8%80%85;%E7%94%A8%E4%BB%A3%E7%A0%81%E8%A7%A3%E5%86%B3%E7%9C%9F%E5%AE%9E%E7%97%9B%E7%82%B9+%F0%9F%9A%80" alt="Typing SVG" />
 
 </div>
 

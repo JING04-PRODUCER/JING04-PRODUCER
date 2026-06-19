@@ -6,35 +6,6 @@
 
 </div>
 
-<div align="center">
-
-<!-- 数据看板 -->
-<a href="https://github.com/JING04-PRODUCER">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/JING04-PRODUCER&query=followers&style=flat-square&logo=github&logoColor=white&label=Followers&color=6366f1&cacheSeconds=3600" />
-</a>
-<a href="https://github.com/JING04-PRODUCER?tab=repositories">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/JING04-PRODUCER&query=public_repos&style=flat-square&logo=github&logoColor=white&label=Repos&color=10b981&cacheSeconds=3600" />
-</a>
-<a href="https://github.com/JING04-PRODUCER?tab=stars">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/JING04-PRODUCER&query=public_gists&style=flat-square&logo=github&logoColor=white&label=Gists&color=f59e0b&cacheSeconds=3600" />
-</a>
-<a href="https://komarev.com/ghpvc/?username=JING04-PRODUCER">
-  <img src="https://komarev.com/ghpvc/?username=JING04-PRODUCER&style=flat-square&color=ef4444&label=%F0%9F%91%80" alt="访客计数" />
-</a>
-
-<br />
-
-<a href="mailto:3573851322@qq.com">
-  <img src="https://img.shields.io/badge/%F0%9F%93%AE%203571328522@qq.com-blue?style=flat-square&logo=gmail&logoColor=white" />
-</a>
-<a href="https://github.com/JING04-PRODUCER">
-  <img src="https://img.shields.io/badge/GitHub-JING04--PRODUCER-181717?style=flat-square&logo=github&logoColor=white" />
-</a>
-
-</div>
-
-<hr />
-
 ## 🧠 关于我
 
 > 计算机科学与技术 2303 班在读，专注 **Python + Java + AI Agent** 技术栈。
@@ -124,6 +95,13 @@ curl -X POST http://localhost:8000/api/agents/code-reviewer/run \
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=JING04-PRODUCER&theme=react-dark&hide_border=true&area=true&radius=16&custom_title=%F0%9F%93%8A+%E8%B4%A1%E7%8C%AE%E6%B4%BB%E5%8A%A8%E5%9B%BE" alt="Activity Graph" width="100%" />
   </a>
 </p>
+
+<!-- 🐍 贪吃蛇 -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JING04-PRODUCER/JING04-PRODUCER/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JING04-PRODUCER/JING04-PRODUCER/output/github-contribution-grid-snake.svg" />
+  <img alt="🐍 Snake eating my contributions" src="https://raw.githubusercontent.com/JING04-PRODUCER/JING04-PRODUCER/output/github-contribution-grid-snake.svg" />
+</picture>
 
 <hr />
 

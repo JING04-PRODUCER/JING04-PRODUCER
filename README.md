@@ -100,7 +100,9 @@ curl -X POST http://localhost:8000/api/agents/code-reviewer/run \
 
 <hr style="border-color: #e5e7eb;" />
 
-<img alt="🐍 contribution snake" src="https://raw.githubusercontent.com/JING04-PRODUCER/JING04-PRODUCER/output/github-contribution-grid-snake-dark.svg?palette=github-dark" />
+<p align="center">
+  <img alt="🐍 contribution snake" src="https://raw.githubusercontent.com/JING04-PRODUCER/JING04-PRODUCER/output/github-contribution-grid-snake.svg">
+</p>
 
 <hr />
 

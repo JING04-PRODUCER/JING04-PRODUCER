@@ -118,10 +118,10 @@ curl -X POST http://localhost:8000/api/agents/code-reviewer/run \
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JING04-PRODUCER/JING04-PRODUCER/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JING04-PRODUCER/JING04-PRODUCER/output/github-contribution-grid-snake.svg" />
-  <img alt="🐍 Snake eating my contributions" src="https://raw.githubusercontent.com/JING04-PRODUCER/JING04-PRODUCER/output/github-contribution-grid-snake.svg" width="100%" />
+  <img alt="🐍 Snake eating my contributions" src="https://raw.githubusercontent.com/JING04-PRODUCER/JING04-PRODUCER/output/github-contribution-grid-snake.svg" />
 </picture>
 
-<hr style="border-color: #e5e7eb;" />
+<hr />
 
 ## 📊 语言 & 贡献统计
 
@@ -133,7 +133,7 @@ curl -X POST http://localhost:8000/api/agents/code-reviewer/run \
 
 </div>
 
-<hr style="border-color: #e5e7eb;" />
+<hr />
 
 ## 🛠 技术栈
 
@@ -154,7 +154,7 @@ curl -X POST http://localhost:8000/api/agents/code-reviewer/run \
 
 </div>
 
-<hr style="border-color: #e5e7eb;" />
+<hr />
 
 <div align="center">
 

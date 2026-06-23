@@ -36,14 +36,13 @@
 
 ## 🧠 关于我
 
-> 计算机科学与技术 2303 班在读，专注 **Python + Java + AI Agent** 技术栈。
-> 热爱开源，致力于用代码解决真实痛点。
+> 计科应届，Python 主力。能在生产环境做这些事：
 
-| 🎯 方向 | 🔧 技术 | 📖 学习中 |
-|:---:|:---:|:---:|
-| LLM 应用开发 | Python · Java · SQL | Agent 多智能体 |
-| Agent 编排框架 | FastAPI · Spring Boot | RAG 检索增强 |
-| API 基础设施 | SQLite · Docker · Git | 云端部署运维 |
+- 把 Prompt Token 消耗压到原来的 **1/4**（[PromptSlim](#promptslim)）
+- 零侵入追踪 LLM API 调用成本（[AI Cost Sentinel](#ai-cost-sentinel)）
+- 搭一个支持 DAG 工作流的多 Agent 平台（[AgentOrchestrator](#agentorchestrator)）
+
+> 找 AI 基础设施 / Python 后端方向，Base 不限。
 
 </td>
 <td width="40%" valign="top">

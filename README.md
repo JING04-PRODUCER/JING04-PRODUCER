@@ -7,7 +7,7 @@
 <div align="center">
 
 <a href="https://github.com/JING04-PRODUCER">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/JING04-PRODUCER&query=followers&style=for-the-badge&logo=github&logoColor=white&label=Followers&color=6366f1&cacheSeconds=3600" />
+  <img src="https://img.shields.io/github/followers/JING04-PRODUCER?style=for-the-badge&logo=github&logoColor=white&label=Followers&color=6366f1&cacheSeconds=3600" />
 </a>
 <a href="https://github.com/JING04-PRODUCER?tab=repositories">
   <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/JING04-PRODUCER&query=public_repos&style=for-the-badge&logo=github&logoColor=white&label=Repos&color=10b981&cacheSeconds=3600" />
@@ -19,7 +19,7 @@
 <br />
 
 <a href="mailto:3573851322@qq.com">
-  <img src="https://img.shields.io/badge/Email-3573851322@qq.com-blue?style=flat-square&logo=maildotru&logoColor=white" />
+  <img src="https://img.shields.io/badge/Email-3573851322@qq.com-blue?style=flat-square&logo=gmail&logoColor=white" />
 </a>
 <a href="https://github.com/JING04-PRODUCER">
   <img src="https://img.shields.io/badge/GitHub-JING04--PRODUCER-181717?style=flat-square&logo=github&logoColor=white" />
@@ -117,15 +117,11 @@ curl -X POST http://localhost:8000/api/agents/code-reviewer/run \
 
 <p align="center">
   <a href="https://github.com/JING04-PRODUCER">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=JING04-PRODUCER&theme=react-dark&hide_border=true&area=true&radius=16&custom_title=%F0%9F%93%8A+%E8%B4%A1%E7%8C%AE%E6%B4%BB%E5%8A%A8%E5%9B%BE" alt="Activity Graph" width="100%" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=JING04-PRODUCER&theme=react-dark&hide_border=true&area=true&radius=16" alt="Activity Graph" width="100%" />
   </a>
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JING04-PRODUCER/JING04-PRODUCER/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JING04-PRODUCER/JING04-PRODUCER/output/github-contribution-grid-snake.svg" />
-  <img alt="🐍 Snake eating my contributions" src="https://raw.githubusercontent.com/JING04-PRODUCER/JING04-PRODUCER/output/github-contribution-grid-snake.svg" />
-</picture>
+<img alt="🐍 contribution snake" src="https://raw.githubusercontent.com/JING04-PRODUCER/JING04-PRODUCER/output/github-contribution-grid-snake-dark.svg?palette=github-dark" />
 
 <hr />
 

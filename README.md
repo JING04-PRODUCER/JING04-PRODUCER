@@ -31,13 +31,9 @@
 
 ## 🧠 关于我
 
-> 计科应届，Python 主力。**LangChain / LangGraph 生态**下做过三个 AI Agent 基础设施项目：
-
-- Prompt 压缩引擎（[PromptSlim](#promptslim)）
-- LLM 成本追踪透明代理（[AI Cost Sentinel](#ai-cost-sentinel)）
-- 多 Agent 编排平台，支持 **RAG + Function Calling + DAG 工作流**（[AgentOrchestrator](#agentorchestrator)）
-
-> 熟悉 **Prompt Engineering、RAG 检索增强、向量数据库**。找 AI 基础设施 / Python 后端方向，Base 不限。
+> 计科应届，Python 主力，专注 AI Agent 基础设施。一年内独立完成三个工具：Prompt 压缩、LLM 成本追踪、多 Agent 编排——覆盖 Agent 应用的开发→观测→调度全链路。
+>
+> 技术栈集中在 Prompt Engineering、RAG 检索增强、Function Calling。找 AI 基础设施 / Python 后端方向，Base 不限。
 
 <hr style="border-color: #e5e7eb;" />
 

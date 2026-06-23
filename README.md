@@ -36,13 +36,13 @@
 
 ## 🧠 关于我
 
-> 计科应届，Python 主力。能在生产环境做这些事：
+> 计科应届，Python 主力。**LangChain / LangGraph 生态**下做过三个 AI Agent 基础设施项目：
 
-- 把 Prompt Token 消耗压到原来的 **1/4**（[PromptSlim](#promptslim)）
-- 零侵入追踪 LLM API 调用成本（[AI Cost Sentinel](#ai-cost-sentinel)）
-- 搭一个支持 DAG 工作流的多 Agent 平台（[AgentOrchestrator](#agentorchestrator)）
+- Prompt 压缩引擎（[PromptSlim](#promptslim)）
+- LLM 成本追踪透明代理（[AI Cost Sentinel](#ai-cost-sentinel)）
+- 多 Agent 编排平台，支持 **RAG + Function Calling + DAG 工作流**（[AgentOrchestrator](#agentorchestrator)）
 
-> 找 AI 基础设施 / Python 后端方向，Base 不限。
+> 熟悉 **Prompt Engineering、RAG 检索增强、向量数据库**。找 AI 基础设施 / Python 后端方向，Base 不限。
 
 </td>
 <td width="40%" valign="top">
@@ -73,7 +73,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/JING04-PRODUCER/promptslim?style=flat-square)](https://github.com/JING04-PRODUCER/promptslim/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/JING04-PRODUCER/promptslim/blob/main/LICENSE)
 
-调用 LLM 之前先压缩 prompt，去掉冗余词但保留代码块和关键语义。实测能省 5%~75% Token。内置 40+ 条中英文常见冗余模式，也支持调 LLM 做语义级压缩。兼容 GPT / Claude / DeepSeek / Qwen。
+**Prompt Engineering 的自动化工具**——调用 LLM 前压缩 prompt，剔除冗余但保留代码块和语义。实测节省 5%~75% Token。40+ 条冗余模式来自对 GPT/Claude 行为的逆向分析，也支持 LLM 语义级压缩。兼容 GPT / Claude / DeepSeek / Qwen。
 
 > [掘金详解 v0.3.0](https://juejin.cn/post/7652277909156790272)
 
@@ -90,7 +90,7 @@ print(f"节省 {report.savings_pct}% Token，每次省 ${report.cost_per_call_sa
 [![GitHub stars](https://img.shields.io/github/stars/JING04-PRODUCER/ai-cost-sentinel?style=flat-square)](https://github.com/JING04-PRODUCER/ai-cost-sentinel/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/JING04-PRODUCER/ai-cost-sentinel/blob/main/LICENSE)
 
-一个透明代理，截获 LLM API 请求自动算 Token 消耗和费用，业务代码不用动。内置 20+ 模型定价，支持日/月预算告警、CSV 导出、Slack 通知。附带一个 Spring Boot + Chart.js 的可视化面板。
+LLM 应用的**可观测性工具**——类似 LangSmith 的成本侧实现。透明代理截获 API 请求，自动记录 Token 消耗与费用。内置 20+ 模型定价、日/月预算告警、CSV 导出、Slack 通知。Spring Boot + Chart.js 可视化面板。
 
 ```python
 client = OpenAI(base_url="http://localhost:8000/v1", api_key="sk-xxx")
@@ -104,7 +104,7 @@ client = OpenAI(base_url="http://localhost:8000/v1", api_key="sk-xxx")
 [![GitHub stars](https://img.shields.io/github/stars/JING04-PRODUCER/agent-orchestrator?style=flat-square)](https://github.com/JING04-PRODUCER/agent-orchestrator/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/JING04-PRODUCER/agent-orchestrator/blob/main/LICENSE)
 
-Python FastAPI 做推理核心，Java Spring Boot 做管理面板。支持 Function Calling、顺序/并行/DAG 工作流、DuckDuckGo 搜索、RAG 记忆。工具注册用了插件化设计，加新工具不用改核心代码。兼容 OpenAI 接口格式。
+基于 **LangChain 设计思想**自研的 Agent 编排引擎。Python FastAPI 推理核心 + Java Spring Boot 管理面板。支持 ReAct / Plan-Execute 推理模式、DAG 工作流、**Function Calling**、DuckDuckGo Web Search、**RAG 记忆系统**（向量检索 + 会话上下文）。工具注册采用 **MCP 协议风格**插件化设计，新工具不改核心代码。
 
 ```bash
 curl -X POST http://localhost:8000/api/agents/code-reviewer/run \

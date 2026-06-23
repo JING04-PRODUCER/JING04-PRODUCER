@@ -137,6 +137,10 @@ curl -X POST http://localhost:8000/api/agents/code-reviewer/run \
 
 <hr />
 
+## 🔑 技能关键词
+
+> LangChain · LangGraph · RAG 检索增强 · Prompt Engineering · Function Calling · Agent 编排 · 向量数据库 · MCP 协议 · FastAPI · Spring Boot · Docker · Python · Java
+
 ## 🛠 技术栈
 
 <div align="center">

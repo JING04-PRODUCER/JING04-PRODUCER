@@ -29,11 +29,6 @@
 
 <hr style="border-color: #e5e7eb;" />
 
-<div align="center">
-<table>
-<tr>
-<td width="60%" valign="top">
-
 ## 🧠 关于我
 
 > 计科应届，Python 主力。**LangChain / LangGraph 生态**下做过三个 AI Agent 基础设施项目：
@@ -43,18 +38,6 @@
 - 多 Agent 编排平台，支持 **RAG + Function Calling + DAG 工作流**（[AgentOrchestrator](#agentorchestrator)）
 
 > 熟悉 **Prompt Engineering、RAG 检索增强、向量数据库**。找 AI 基础设施 / Python 后端方向，Base 不限。
-
-</td>
-<td width="40%" valign="top">
-
-<a href="https://github.com/JING04-PRODUCER">
-  <img src="https://github-readme-stats.vercel.app/api?username=JING04-PRODUCER&show_icons=true&theme=transparent&hide_border=true&count_private=true&locale=cn&ring_color=6366f1&title_color=6366f1&icon_color=6366f1&text_color=666666&hide=stars,issues" width="100%" />
-</a>
-
-</td>
-</tr>
-</table>
-</div>
 
 <hr style="border-color: #e5e7eb;" />
 
@@ -117,27 +100,7 @@ curl -X POST http://localhost:8000/api/agents/code-reviewer/run \
 
 <hr style="border-color: #e5e7eb;" />
 
-## 动态
-
-<p align="center">
-  <a href="https://github.com/JING04-PRODUCER">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=JING04-PRODUCER&theme=react-dark&hide_border=true&area=true&radius=16" alt="Activity Graph" width="100%" />
-  </a>
-</p>
-
 <img alt="🐍 contribution snake" src="https://raw.githubusercontent.com/JING04-PRODUCER/JING04-PRODUCER/output/github-contribution-grid-snake-dark.svg?palette=github-dark" />
-
-<hr />
-
-## 📊 语言 & 贡献统计
-
-<div align="center">
-
-<a href="https://github.com/JING04-PRODUCER">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JING04-PRODUCER&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages" />
-</a>
-
-</div>
 
 <hr />
 

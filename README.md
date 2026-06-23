@@ -75,7 +75,7 @@
 
 **Prompt Engineering 的自动化工具**——调用 LLM 前压缩 prompt，剔除冗余但保留代码块和语义。实测节省 5%~75% Token。40+ 条冗余模式来自对 GPT/Claude 行为的逆向分析，也支持 LLM 语义级压缩。兼容 GPT / Claude / DeepSeek / Qwen。
 
-> [掘金详解 v0.3.0](https://juejin.cn/post/7652277909156790272)
+🔗 [github.com/JING04-PRODUCER/promptslim](https://github.com/JING04-PRODUCER/promptslim) ｜ [掘金详解](https://juejin.cn/post/7652277909156790272)
 
 ```python
 from promptslim import quick_slim
@@ -92,6 +92,8 @@ print(f"节省 {report.savings_pct}% Token，每次省 ${report.cost_per_call_sa
 
 LLM 应用的**可观测性工具**——类似 LangSmith 的成本侧实现。透明代理截获 API 请求，自动记录 Token 消耗与费用。内置 20+ 模型定价、日/月预算告警、CSV 导出、Slack 通知。Spring Boot + Chart.js 可视化面板。
 
+🔗 [github.com/JING04-PRODUCER/ai-cost-sentinel](https://github.com/JING04-PRODUCER/ai-cost-sentinel)
+
 ```python
 client = OpenAI(base_url="http://localhost:8000/v1", api_key="sk-xxx")
 # 之后正常用，Sentinel 代理自动记录每次调用的成本
@@ -105,6 +107,8 @@ client = OpenAI(base_url="http://localhost:8000/v1", api_key="sk-xxx")
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/JING04-PRODUCER/agent-orchestrator/blob/main/LICENSE)
 
 基于 **LangChain 设计思想**自研的 Agent 编排引擎。Python FastAPI 推理核心 + Java Spring Boot 管理面板。支持 ReAct / Plan-Execute 推理模式、DAG 工作流、**Function Calling**、DuckDuckGo Web Search、**RAG 记忆系统**（向量检索 + 会话上下文）。工具注册采用 **MCP 协议风格**插件化设计，新工具不改核心代码。
+
+🔗 [github.com/JING04-PRODUCER/agent-orchestrator](https://github.com/JING04-PRODUCER/agent-orchestrator)
 
 ```bash
 curl -X POST http://localhost:8000/api/agents/code-reviewer/run \
